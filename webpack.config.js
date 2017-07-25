@@ -5,7 +5,7 @@ module.exports = {
 	entry: {
 		app: "./src/index"
 	},
-	devtool: "source-map",
+	devtool: "eval-source-map",
 	plugins: [
 		new webpack.HotModuleReplacementPlugin() // Enable HMR
 	],
